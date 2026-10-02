@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-navy: #1B2A4A;
+    --color-teal: #009688;
+    --color-cyan: #00B4D8;
+    --color-surface: #F8F9FA;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+.font-heading {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* 3D and Luxury shadow depth utilities */
+.shadow-luxury {
+  box-shadow: 0 10px 30px -5px rgba(27, 42, 74, 0.12), 0 4px 6px -2px rgba(27, 42, 74, 0.05);
+}
+
+.shadow-luxury-lg {
+  box-shadow: 0 25px 50px -12px rgba(27, 42, 74, 0.25);
+}
+
+.shadow-teal-glow {
+  box-shadow: 0 0 25px -5px rgba(0, 150, 136, 0.4);
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
